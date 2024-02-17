@@ -1,7 +1,7 @@
-import React from 'react';
-import PropTypes from "prop-types"
-import avatarImage from "../assets/avatar-image.png"
-import "../styles/avatar.css"
+import React from "react";
+import PropTypes from "prop-types";
+import avatarImage from "../assets/avatar-image.png";
+import "../styles/avatar.css";
 
 const Avatar = ({ page }) => {
     const avatarClass = `avatar ${page}`;
@@ -16,7 +16,7 @@ const Avatar = ({ page }) => {
 };
 
 Avatar.propTypes = {
-    page: PropTypes.string.isRequired
-}
+    page: PropTypes.string.isRequired,
+};
 
 export default Avatar;
