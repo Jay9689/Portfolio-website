@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import Avatar from "../avatar/Avatar.js"
+import React, { Component } from "react";
+import Avatar from "../avatar/Avatar.js";
 import AboutMenu from "./AboutMenu.js";
 
 export default class About extends Component {
@@ -9,6 +9,6 @@ export default class About extends Component {
                 <Avatar page="about" />
                 <AboutMenu />
             </>
-        )
+        );
     }
 }
