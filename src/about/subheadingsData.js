@@ -14,18 +14,7 @@ const subheadingsData = {
     ],
     2: [
         {
-            title: "2016 Masters Degree",
-            content: (
-                <>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </p>
-                </>
-            ),
-        },
-        {
-            title: "2014 Bachelors Degree",
+            title: "2021 Bachelors Degree",
             content: (
                 <>
                     <p>
@@ -38,7 +27,7 @@ const subheadingsData = {
     ],
     3: [
         {
-            title: "2022 Front End Developer",
+            title: "2023 Node.js Developer",
             content: (
                 <>
                     <p>
@@ -49,18 +38,7 @@ const subheadingsData = {
             ),
         },
         {
-            title: "2020 UX Designer",
-            content: (
-                <>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </p>
-                </>
-            ),
-        },
-        {
-            title: "2017 IT Consultant",
+            title: "2022 Intern",
             content: (
                 <>
                     <p>

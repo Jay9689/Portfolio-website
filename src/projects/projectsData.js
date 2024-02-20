@@ -4,18 +4,21 @@ import projectThree from "../assets/project-3.png";
 
 const projects = {
   1: {
-    title: "SoMe Platform",
+    title: "Full stack Airbnb clone",
     image: projectOne,
     description: (
       <>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Frontend: HTML5, CSS3, JavaScript ES6+ <br />
+          Backend: Node.js (Express.js) MongoDB <br />
+          Storage: Cloudinary for user-uploaded content<br />
+          Authentication & Authorization: Passport.js<br />
+          Implemented MVC Frame-work<br />
         </p>
       </>
     ),
-    github: "https://github.com",
-    demo: "https://netlify.com",
+    github: "https://github.com/Jay9689/Airbnb.git",
+    demo: "https://cloud.google.com/",
   },
   2: {
     title: "Productivity App",

@@ -6,19 +6,15 @@ const skills = {
     },
     {
       title: "CSS",
-      level: 3,
+      level: 4,
     },
     {
       title: "JavaScript",
-      level: 5,
-    },
-    {
-      title: "TypeScript",
-      level: 1,
+      level: 4,
     },
     {
       title: "Tailwind CSS",
-      level: 1,
+      level: 2,
     },
     {
       title: "React JS",
@@ -32,7 +28,7 @@ const skills = {
     },
     {
       title: "MongoDB",
-      level: 5,
+      level: 4,
     },
     {
       title: "Git",
@@ -41,6 +37,10 @@ const skills = {
     {
       title: "SQL",
       level: 3,
+    },
+    {
+      title: "linux",
+      level: 2,
     },
     {
       title: "Express.js",

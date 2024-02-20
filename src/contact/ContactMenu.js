@@ -33,6 +33,8 @@ export default function ContactMenu() {
     setIsLoading(true);
 
     const { name, email, message } = formData;
+
+    // intoducing DOMPurify
     const sanitizedData = {
       name: "Name: " + DOMPurify.sanitize(name),
       email: "Email: " + DOMPurify.sanitize(email),

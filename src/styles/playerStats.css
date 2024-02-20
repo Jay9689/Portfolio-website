@@ -28,14 +28,14 @@
     display: block;
     background-color: white;
     height: 0.2rem;
-    width: 8.75rem;
+    width: 3.2rem;
   }
   
   #playerStats__lines__thin {
     display: block;
     background-color: lightgray;
     height: 0.1rem;
-    width: 6.2rem;
+    width: 6.7rem;
   }
   
   @media (max-width: 1100px) {
@@ -54,5 +54,24 @@
     p {
       font-size: 0.7rem;
     }
+    #playerStats__lines {
+      display: flex;
+      align-items: center;
+    }
+    
+    #playerStats__lines__thick {
+      display: block;
+      background-color: white;
+      height: 0.2rem;
+      width: 2rem;
+    }
+    
+    #playerStats__lines__thin {
+      display: block;
+      background-color: lightgray;
+      height: 0.1rem;
+      width: 3.4rem;
+    }
+
   }
   
