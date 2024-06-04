@@ -20,6 +20,10 @@ const skills = {
       title: "React JS",
       level: 3,
     },
+    {
+      title: "Redux",
+      level: 3,
+    },
   ],
   2: [
     {
@@ -32,11 +36,11 @@ const skills = {
     },
     {
       title: "Git",
-      level: 4,
+      level: 3,
     },
     {
       title: "SQL",
-      level: 3,
+      level: 2,
     },
     {
       title: "linux",
