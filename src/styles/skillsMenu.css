@@ -95,6 +95,48 @@
   gap: 0.4rem;
 }
 
+/* Style for Technical Authoring Section */
+.skill-item.activeSkill:nth-child(3) {
+  background: linear-gradient(270deg, #ffffff00, #FFD700 70%); /* Yellow gradient */
+}
+
+.skill-sub-container-3 h3 {
+  position: relative;
+  margin: 0;
+  color: #FFD700; /* Text color in yellow */
+}
+
+.skill-sub-container-3 {
+  display: flex;
+  justify-content: right;
+  gap: 2rem;
+}
+
+.level-point-3 {
+  background: linear-gradient(180deg, #FFD700, #FFC107, #FFECB3); /* Gradient for filled points */
+}
+
+.skill-sub-container-3 .filled {
+  background: linear-gradient(180deg, #FFD700, #FFC107, #FFECB3); /* Yellow gradient for filled levels */
+}
+
+.skill-sub-container-3 .unfilled {
+  background: linear-gradient(180deg, #B8860B, #8B6914, #8B6914); /* Darker yellow for unfilled levels */
+}
+
+@media (max-width: 1100px) {
+  .skill-sub-container-3 {
+    gap: 0.5rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .skill-sub-container-3 {
+    gap: 0.2rem;
+  }
+}
+
+
 @media (max-width: 1100px) {
   .skill-item.activeSkill .skill-title {
     font-size: 1rem;

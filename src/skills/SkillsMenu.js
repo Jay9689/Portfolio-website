@@ -4,6 +4,7 @@ import "../styles/skillsMenu.css";
 import skills from "./skillsData";
 import frontendIcon from "../assets/eagle-emblem.png";
 import backendIcon from "../assets/hawk-emblem.png";
+import technicalIcon from "../assets/eagle-emblem.png"; // Add icon for Technical Authoring
 
 export default class SkillsMenu extends Component {
     constructor(props) {
@@ -21,18 +22,11 @@ export default class SkillsMenu extends Component {
 
     renderContent = (skills) => {
         return skills.map((skill, index) => (
-            <div
-                key={index}
-                className={`skill-sub-container-${this.state.activeMenuItem}`}
-            >
+            <div key={index} className={`skill-sub-container-${this.state.activeMenuItem}`}>
                 <h3>{skill.title}</h3>
                 <div className="level-container">
                     {[...Array(6)].map((_, i) => (
-                        <div
-                            key={i}
-                            className={`level-point ${i < skill.level ? "filled" : "unfilled"
-                                }`}
-                        />
+                        <div key={i} className={`level-point ${i < skill.level ? "filled" : "unfilled"}`} />
                     ))}
                 </div>
             </div>
@@ -41,9 +35,12 @@ export default class SkillsMenu extends Component {
 
     render() {
         const { activeMenuItem } = this.state;
-        const menuItems = ["FRONT-END", "BACK-END"];
+        const menuItems = ["FRONT-END", "BACK-END", "AUTHORING"];
 
-        const currentIcon = activeMenuItem === 1 ? frontendIcon : backendIcon;
+        const currentIcon =
+            activeMenuItem === 1 ? frontendIcon :
+                activeMenuItem === 2 ? backendIcon :
+                    technicalIcon;
 
         return (
             <div className="skill-menu">
